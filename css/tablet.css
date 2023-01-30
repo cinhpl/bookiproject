@@ -1,0 +1,117 @@
+@media (max-width: 991px) and (min-width: 768px) {
+    /*     HEADER      */
+    header {
+        margin: 15px 0 0 0;
+    }
+
+    header nav a {
+        padding-top: 31px;
+    }
+
+    /*     SEARCH SECTION      */
+    #searchsection {
+        margin-left: 20px;
+    }
+
+    /*     HOSTING SECTION     */
+    #hosting {
+        flex-direction: column-reverse;
+        margin: 25px 0 0 0;
+    }
+
+    .hostingrooms {
+        width: auto;
+        border-radius: 0;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .roomsbox {
+        justify-content: space-between;
+    }
+
+    .roomscard {
+        width: 230px;
+        margin: 0 0 20px 0;
+    }
+
+    /*     MOST POPULAR SECTION    */
+    .popular {
+        width: auto;
+        margin: 0;
+        justify-content: space-between;
+        margin-bottom: 25px;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .popular h2 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .popularbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .popularbox a {
+        margin: 0;
+    }
+
+    .popularcard {
+        width: 230px;
+    }
+
+    .popularcard img {
+        padding-right: 20px;
+    }
+
+    .popularcard .starscard {
+        padding-top: 40px;
+    }
+
+    /*     ACTIVITY    */
+    #activity {
+        margin: 0;
+    }
+
+    #activity h2 {
+        margin-left: 20px;
+    }
+
+    .activitybox {
+        flex-wrap: wrap;
+        padding: 0 20px 0 20px;
+    }
+
+    .box1, .box2 {
+        width: 45%;
+    }
+
+    .box1 {
+        padding-right: 5%;
+        padding-bottom: 5%;
+        justify-content: space-between;
+    }
+
+    .box2 {
+        padding: 0 0 5% 0;
+        justify-content: space-between;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 100%;
+    }
+
+    /*     FOOTER     */
+    .footer {
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .footer article {
+        margin: 0;
+    }
+}

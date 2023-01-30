@@ -1,0 +1,177 @@
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        width: auto;
+    }
+
+    /*      HEADER      */
+    header {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    nav {
+        display: table;
+        width: 100%;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav li {
+        border-bottom: #F2F2F2 solid 4px;
+        padding-bottom: 15px;
+        text-align: center;
+        display: table-cell;
+        width: 100%;
+    }
+
+    nav li:hover {
+        border-bottom: 4px solid #0065FC;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    nav a:hover {
+        border-top: none;
+    }
+
+    /*      SEARCH SECTION     */
+    #searchsection {
+        padding: 0 20px 20px 20px;
+        margin: 0;
+    }
+
+    .searchform {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    input[type=search] {
+        border-right: none;
+        padding-right: 0px;
+    }
+
+    #button {
+        display: none;
+    }
+
+    #button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        height: 58px;
+        width: 58px;
+        border-radius: 15px;
+        background-color: #0065FC;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+    }
+
+    /*      FILTER     */
+    #filter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .filterbox {
+        margin: 5px 3px 5px 0;
+    }
+
+    .infoicon {
+        width: 30px;
+    }
+
+    /*      HOSTING SECTION     */
+    #hosting {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: 0;
+    }
+
+    .hostingrooms {
+        background-color: white;
+        width: 100%;
+        padding: 20px 30px 20px 20px;
+        margin: 0;
+    }
+
+    .hostingrooms h2 {
+        margin-left: 30px;
+    }
+
+    .roomsbox {
+        flex-direction: column;
+    }
+
+    .roomscard {
+        height: 210px;
+        width: 100%;
+    }
+
+    /*      POPULAR SECTION     */
+    .popular {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        padding: 20px 30px 20px 20px;
+    }
+
+    .popular h2 {
+        margin: 0 0 0 30px;
+    }
+
+    .popularcard {
+        width: 100%;
+    }
+
+    .popularcard .starscard {
+        padding-top: 40px;
+    }
+
+    /*      ACTIVITY    */
+    #activity {
+        margin: 0;
+    }
+
+    #activity h2 {
+        margin-left: 20px;
+    }
+
+    .activitybox {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+
+    .box1, .box2 {
+        width: 100%;
+    }
+
+    .simplecard, .card1, .card2, .card3, .card4 {
+        margin: 0 0 25px 0;
+    }
+
+    .simplecard img, .card1 img, .card2 img, .card3 img, .card4 img {
+        height: 210px;
+    }
+
+    /*     FOOTER    */
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .footer article {
+        padding-bottom: 25px;
+        margin: 0;
+    }
+}
